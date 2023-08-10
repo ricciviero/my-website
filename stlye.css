@@ -41,7 +41,7 @@
   .contattami {
     text-align: center;
     margin-left: auto;
-    margin-right: 0; /* Aggiungi margin-right per allineare a destra */
+    margin-right: 0;                        /* Aggiungi margin-right per allineare a destra */
     margin-top: -12px;
     color: white;
     font-size: 15px;
@@ -108,11 +108,11 @@
     font-weight: bold;
   }
 
-  .btn {
+  .consulenza {
     border: none;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
-    width: 20em;
+    width: 22em;
     height: 5em;
     border-radius: 3em;
     display: flex;
@@ -124,11 +124,6 @@
     transition: all 450ms ease-in-out;
   }
   
-  .sparkle {
-    fill: #686868;
-    transition: all 800ms ease;
-    margin-right: 8px;
-  }
   
   .text {
     font-weight: bold;
@@ -140,7 +135,7 @@
     font-size: 18px;
   }
   
-  .btn:hover {
+  .consulenza:hover {
     background: linear-gradient(to right, #491BFF, #8910C1);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
     inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
@@ -149,14 +144,10 @@
     transform: translateY(-2px);
   }
   
-  .btn:hover .text {
+  .consulenza:hover .text {
     color: white;
   }
-  
-  .btn:hover .sparkle {
-    fill: white;
-    transform: scale(1.2);
-  } 
+
 
 
 .pm {
