@@ -1,3 +1,5 @@
+/* BODY */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +18,12 @@
     pointer-events: none;
     z-index: 9999;
   }
+
+  a, button {
+    cursor: none;
+  }
+
+  /* NAV */
   
   .menu-container {
     color: black;
@@ -31,6 +39,16 @@
     font-weight: bold;
     font-size: 18px;
   }
+
+  .logo {
+    width: auto;
+  }
+
+  .logo img {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+  }
   
   .menu {
     width: 900px;
@@ -39,7 +57,7 @@
   }
   
   .pages {
-      border: 1px solid #fff;               /* For debugging */
+
       display: flex;
       justify-content: flex-end;
       font-weight: bold;
@@ -52,33 +70,8 @@
     margin-right: 0;
   }
 
-  .contattami {
-    text-align: center;
-    margin-left: auto;
-    margin-right: 0;                        /* Aggiungi margin-right per allineare a destra */
-    margin-top: -12px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    width: 140px;
-    line-height: 40px;
-    padding: 0 5px;
-    display: block;
-    border-radius: 10px;
-    border: 0px;
-    background-image: linear-gradient(to right, #491BFF, #8910C1);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 
-    transition: background-image 1s ease, background-color 1s ease;
-  }
-
-  .contattami:hover {
-    background-image: none;
-    background-color: #fff;
-    color: black;
-    border: 1px solid  black;
-  }
-  
+  /* HERO */
 
   
   .hero-landing {
@@ -112,10 +105,11 @@
   }
 
   .body-copy {
+
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 800px;
+    width: 1000px;
   }
 
   .bold-text {
@@ -163,6 +157,7 @@
   }
 
 
+/* CREATIVE PROJECT MANAGEMENT */
 
 .pm {
   display: flex;
@@ -339,3 +334,104 @@
     font-size: 14px;
   }
 }
+
+
+/* TABLET */
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Modifica gli stili per adattarli al layout per tablet */
+
+  .menu-container {
+    padding: 30px 0;
+  }
+
+  .menu {
+    flex-direction: row; /* Ripristina la direzione del menu */
+    justify-content: space-between; /* Distribuisci gli elementi del menu */
+    align-items: center;
+    width: 90%; /* Riduci leggermente la larghezza del menu */
+    margin: 0 auto; /* Centra il menu orizzontalmente */
+  }
+
+  .pages {
+    justify-content: flex-end;
+    margin-top: 0; /* Rimuovi il margine superiore */
+  }
+
+  .pages > * {
+    margin-right: 20px;
+  }
+
+  .hero-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Riduci leggermente l'altezza */
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero-copy {
+    font-size: 36px; /* Riduci la dimensione del testo */
+  }
+
+  .body-copy {
+    font-size: 18px; /* Riduci la dimensione del testo */
+    width: 80%; /* Riduci la larghezza */
+  }
+
+  .btn {
+    width: 60%; /* Riduci la larghezza */
+    height: 40px; /* Riduci l'altezza */
+    font-size: 14px;
+    line-height: 26px; /* Riduci l'altezza della linea */
+  }
+
+  .sparkle {
+    fill: #686868;
+    transition: all 800ms ease;
+    margin-right: 5px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .pm {
+    height: auto;
+  }
+
+  .pm-copy {
+    font-size: 36px; /* Riduci la dimensione del testo */
+    margin-top: -20px; /* Riduci la distanza dal blocco precedente */
+  }
+
+  .pm-body-copy {
+    font-size: 18px; /* Riduci la dimensione del testo */
+  }
+
+  .grid-container {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 45%; /* Riduci la larghezza delle carte per adattarle su due colonne */
+    padding: 20px; /* Riduci il padding */
+    margin-bottom: 20px;
+  }
+
+  .card h2 {
+    font-size: 16px; /* Riduci la dimensione del titolo */
+    margin-top: -8px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+}
+
