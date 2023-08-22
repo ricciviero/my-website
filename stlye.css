@@ -125,6 +125,7 @@
     background: #ffffff;
     cursor: pointer;
     transition: all 450ms ease-in-out;
+    text-decoration: none;
   }
   
   
@@ -135,7 +136,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .consulenza:hover {
