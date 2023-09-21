@@ -132,6 +132,95 @@
     color: white;
   }
 
+    /* HERO */
+
+
+    /* PROFILE */
+
+.profile {
+  border: solid 5px rgb(255, 255, 255);  /* DEBUGGING */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+.profile-card {
+  padding: 50px;
+  border: solid 5px rgb(255, 255, 255);  /* DEBUGGING */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 400px;
+}
+
+.profile-pic {
+  margin-right: 80px;
+  width: 170px;
+  height: auto;
+  
+}
+
+.card-text{
+  border: solid 5px rgb(255, 255, 255);  /* DEBUGGING */
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+.skills {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0; 
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.skills li {
+  position: relative; /* Questo consente di posizionare gli pseudo-elementi in relazione a ciascun <li> */
+  padding-right: 120px; /* Questo crea spazio a destra per la barra di caricamento */
+}
+
+.skills li::before {
+  content: ""; /* Necessario per visualizzare l'pseudo-elemento */
+  position: absolute;
+  right: 0; /* Posiziona la barra a destra */
+  top: 50%;
+  transform: translateY(-50%); /* Centra la barra verticalmente rispetto al testo */
+  width: 100px; /* Larghezza della barra di caricamento */
+  height: 10px; /* Altezza della barra di caricamento */
+  background-color: #e0e0e0; /* Colore di sfondo della barra di caricamento */
+  border-radius: 5px; /* Angoli arrotondati della barra */
+}
+
+.skills li::after {
+  content: ""; /* Necessario per visualizzare l'pseudo-elemento */
+  position: absolute;
+  right: 0; /* Posiziona la barra a destra */
+  top: 50%;
+  transform: translateY(-50%); /* Centra la barra verticalmente rispetto al testo */
+  width: 100px; /* Cambia questa larghezza per mostrare il progresso desiderato. Ad esempio, puoi variare questo valore per ogni <li> se desideri */
+  height: 10px; /* Altezza della barra di caricamento */
+  background-color: #9917FF; /* Colore della barra di progresso */
+  border-radius: 5px; /* Angoli arrotondati della barra */
+
+}
+
+
+
+
+
+
+
+
+  
+
 
 
 
