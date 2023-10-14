@@ -4,48 +4,104 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: #FCFCFC;
   }
 
   /* NAV */
   
-  .menu-container {
-    color: black;
-    background-color: white;
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 663px;
+  margin-right: 750px;
+  margin-top: 30px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.page-container {
+  display: flex;
+  gap: 20px;
+}
+
+.about-page, .blog-page, .progetti-page {
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6F6F6F;
+}
+
+/* NAV */
+
+/* HERO */
+
+.hero {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.presentation {
+  text-align: left;
+  width: 600px;
+  border: 1px solid red;       /*DEBUGGING*/
+}
+
+.description {
+  color: #6F6F6F;
+}
+
+.resume {
+  border: 1px solid red;       /*DEBUGGING*/
+  width: 600px;
+  margin-top: 30px;
+  display: flex;
   
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .logo {
-    width: auto;
-  }
+.profile-pic {
+  width: 100px;
+}
 
-  .logo img {
-    width: 80px;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .menu {
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .pages {
+.links {
+  margin-right: 390px;
+  color: #6F6F6F;
+}
 
-      display: flex;
-      justify-content: flex-end;
-      font-weight: bold;
-  }
+.riassunto {
+  border: 1px solid red;       /*DEBUGGING*/
+  margin-top: 20px; 
+  width: 600px;
+}
 
-  .pages > * {
-    margin-right: 30px;
-  }
-  .pages > *:last-child {
-    margin-right: 0;
-  }
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  width: 600px;
+  margin-top: 20px;
+  gap: 15px;
+}
 
-
+.mail, .call {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 1px 5px 0px #B5B5B5;
+  cursor: pointer;
+}
