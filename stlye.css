@@ -49,7 +49,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;      /*DEBUGGING*/
+  border: 1px solid rgb(255, 255, 255);      /*DEBUGGING*/
   align-items: center;
   width: 100%;
   padding: 50px;
@@ -58,7 +58,7 @@
 .presentation {
   text-align: left;
   width: 600px;
-  border: 1px solid red;       /*DEBUGGING*/
+  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
 }
 
 .description {
@@ -66,7 +66,7 @@
 }
 
 .resume {
-  border: 1px solid red;       /*DEBUGGING*/
+  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
   width: 600px;
   margin-top: 30px;
   display: flex;
@@ -80,12 +80,14 @@
 }
 
 .links {
-  margin-right: 390px;
+  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
+  margin-left: 25px;
   color: #6F6F6F;
+  width: 500px;
 }
 
 .riassunto {
-  border: 1px solid red;       /*DEBUGGING*/
+  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
   margin-top: 20px; 
   width: 600px;
 }
@@ -94,7 +96,7 @@
   display: flex;
   justify-content: flex-start;
   width: 600px;
-  margin-top: 20px;
+  margin-top: 25px;
   gap: 15px;
 }
 
@@ -104,4 +106,23 @@
   border: none;
   box-shadow: 0px 1px 5px 0px #B5B5B5;
   cursor: pointer;
+}
+
+
+/* CONTENT */
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.ironic-title {
+  text-align: left;
+  width: 600px;
+  border: 1px solid rgb(248, 0, 0);       /*DEBUGGING*/
 }
