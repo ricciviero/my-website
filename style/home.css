@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 663px;
-  margin-right: 750px;
+  margin-right: 800px;
   margin-top: 30px;
 }
 
@@ -46,7 +46,7 @@
 /* HERO */
 
 .hero {
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(255, 255, 255);      /*DEBUGGING*/
@@ -61,8 +61,13 @@
   border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
 }
 
+.name {
+  font-size: 28px;
+}
+
 .description {
   color: #6F6F6F;
+  font-size: 16px;
 }
 
 .resume {
@@ -102,9 +107,8 @@
 
 .mail, .call {
   padding: 8px;
-  border-radius: 6px;
-  border: none;
-  box-shadow: 0px 1px 5px 0px #B5B5B5;
+  border-radius: 7px;
+  border: 1px solid rgb(204, 204, 204);
   cursor: pointer;
 }
 
@@ -112,7 +116,7 @@
 /* CONTENT */
 
 
-.content {
+.skills {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
@@ -121,8 +125,97 @@
   padding: 50px;
 }
 
-.ironic-title {
+.skills-title {
   text-align: left;
   width: 600px;
-  border: 1px solid rgb(248, 0, 0);       /*DEBUGGING*/
+  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
 }
+
+.skills-p {
+  color: #6F6F6F;
+  font-size: 16px;
+}
+
+.tech-stuff {
+  border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 3px;
+  margin-right: 365px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.html, .css, .js, .ts, .react {
+  width: 40px;
+}
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+
+  /* NAV */
+  
+  .navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+
+  .page-container {
+    margin-top: 20px;
+  }
+
+  /* HERO */
+
+  .hero {
+    padding: 20px;
+  }
+
+  .presentation, .resume, .riassunto, .buttons {
+    width: 100%;
+  }
+
+  .resume {
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    margin: 20px 0;
+  }
+
+  .links {
+    margin-left: 0;
+    padding: 20px 0;
+  }
+
+  /* CONTENT */
+
+  .skills {
+    padding: 20px;
+  }
+
+  .skills-title, .skills-p {
+    width: 100%;
+  }
+
+  .tech-stuff {
+    justify-content: space-around;
+    margin-right: 0;
+  }
+
+}
+
+
+
+
