@@ -58,7 +58,7 @@
 .presentation {
   text-align: left;
   width: 600px;
-  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
+  border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
 }
 
 .name {
@@ -152,6 +152,33 @@
 
 .html, .css, .js, .ts, .react {
   width: 40px;
+}
+
+
+.my-blog {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.my-blog-container {
+  text-align: left;
+  width: 600px;
+  border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+}
+
+.my-blog-title {
+  text-align: left;
+  width: 600px;
+  border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
+}
+
+.my-blog-p {
+  color: #6F6F6F;
+  font-size: 16px;
 }
 
 
