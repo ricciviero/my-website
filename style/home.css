@@ -41,6 +41,12 @@
   color: #6F6F6F;
 }
 
+.page-container h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 /* NAV */
 
 /* HERO */
