@@ -37,7 +37,7 @@
   margin: 0;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #6F6F6F;
 }
 
@@ -75,6 +75,7 @@
 }
 
 .description {
+  margin-top: 4px;
   color: #6F6F6F;
   font-size: 17px;
 }
@@ -113,7 +114,7 @@
   font-size: 16px;
 }
 
-.buttons {
+.hero-buttons {
   display: flex;
   justify-content: flex-start;
   width: 600px;
@@ -203,6 +204,36 @@
   font-size: 16px;
 }
 
+.articoli-container {
+  margin-top: 12px;
+  text-align: left;
+  width: 600px;
+  border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+}
+
+.art-1, .art-2, .art-3 {
+  color: #313131;
+  font-weight: 500;
+  padding: 4px;
+}
+
+
+.blog-buttons {
+  display: flex;
+  justify-content: flex-start;
+  width: 600px;
+  margin-top: 25px;
+}
+
+.blog-cta-button {
+  padding: 8px;
+  border-radius: 7px;
+  border: 1px solid rgb(204, 204, 204);
+  cursor: pointer;
+  font-weight: 600;
+  color: #313131;
+}
+
 
 
 
@@ -210,61 +241,4 @@
 
 
 /* MOBILE */
-
-@media only screen and (max-width: 768px) {
-
-  /* NAV */
-  
-  .navbar {
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: column;
-  }
-
-  .page-container {
-    margin-top: 20px;
-  }
-
-  /* HERO */
-
-  .hero {
-    padding: 20px;
-  }
-
-  .presentation, .resume, .riassunto, .buttons {
-    width: 100%;
-  }
-
-  .resume {
-    flex-direction: column;
-  }
-
-  .profile-pic {
-    margin: 20px 0;
-  }
-
-  .links {
-    margin-left: 0;
-    padding: 20px 0;
-  }
-
-  /* CONTENT */
-
-  .skills {
-    padding: 20px;
-  }
-
-  .skills-title, .skills-p {
-    width: 100%;
-  }
-
-  .tech-stuff {
-    justify-content: space-around;
-    margin-right: 0;
-  }
-
-}
-
-
-
 
