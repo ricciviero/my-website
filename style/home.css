@@ -33,7 +33,7 @@
   gap: 20px;
 }
 
-.about-page, .blog-page, .progetti-page {
+.about-page, .blog-page, .progetti-page, .home-page {
   margin: 0;
   cursor: pointer;
   font-size: 16px;

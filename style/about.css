@@ -9,7 +9,7 @@
   }
 
 
-    /* NAV */
+  /* NAV */
   
 .navbar {
     display: flex;
@@ -34,7 +34,7 @@
     gap: 20px;
   }
   
-  .about-page, .blog-page, .progetti-page {
+  .about-page, .blog-page, .progetti-page, .home-page {
     margin: 0;
     cursor: pointer;
     font-size: 16px;
@@ -49,3 +49,81 @@
   
   
   /* NAV */
+
+
+  /* HERO */
+
+
+
+  .hero {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid rgb(255, 255, 255);      /*DEBUGGING*/
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .hero-container {
+    text-align: left;
+    color: #202020;
+    width: 600px;
+    border: 0px solid rgb(255, 255, 255);       /*DEBUGGING*/
+  }
+  
+  .about-me {
+    font-size: 28px;
+    font-weight: 700;
+    color: #202020;
+  }
+  
+  .contest {
+    margin-top: 4px;
+    color: #6F6F6F;
+    font-size: 17px;
+  }
+
+  .gallery {
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 1px solid rgb(255, 255, 255);       /*DEBUGGING*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.gallery img {
+    border-radius: 7px;
+    width: 150px;
+    height: auto;
+    box-shadow: 2px 2px 4px rgba(92, 92, 92, 0.1);
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+  width: 600px;
+}
+
+.about-title {
+  text-align: left;
+  font-weight: 700;
+  color: #202020;
+  width: 600px;
+  border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+}
+
+.about-p {
+  margin-top: 7px;
+  color: #6F6F6F;
+  font-size: 16px;
+  text-align: left;
+  width: 600px;
+}
