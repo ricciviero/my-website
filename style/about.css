@@ -105,7 +105,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(0, 0, 0);      /*DEBUGGING*/
+  border: 0px solid rgb(0, 0, 0);      /*DEBUGGING*/
   align-items: center;
   width: 100%;
   padding: 50px;
@@ -117,11 +117,93 @@
   font-weight: 700;
   color: #202020;
   width: 600px;
-  border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
 }
 
 .about-p {
   margin-top: 7px;
+  color: #6F6F6F;
+  font-size: 16px;
+  text-align: left;
+  width: 600px;
+}
+
+.mail {
+  padding: 8px;
+  border-radius: 7px;
+  border: 1px solid rgb(204, 204, 204);
+  cursor: pointer;
+  font-weight: 600;
+  color: #313131;
+  margin-left: -468px;
+  margin-top: 20px;
+}
+
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid rgb(255, 255, 255);      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+
+.connect-title {
+  text-align: left;
+  font-weight: 700;
+  color: #202020;
+  width: 600px;
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+}
+
+.connect-p {
+  margin-top: 4px;
+  color: #6F6F6F;
+  font-size: 16px;
+  text-align: left;
+  width: 600px;
+}
+
+.connect-buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 600px;
+  margin-top: 25px;
+  gap: 15px;
+}
+
+.linkedin, .github, .instagram {
+  padding: 8px;
+  border-radius: 7px;
+  border: 1px solid rgb(204, 204, 204);
+  cursor: pointer;
+  font-weight: 600;
+  color: #313131;
+}
+
+
+.work {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid rgb(255, 255, 255);      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+
+.work-title {
+  text-align: left;
+  font-weight: 700;
+  color: #202020;
+  width: 600px;
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+}
+
+.work-p {
+  margin-top: 4px;
   color: #6F6F6F;
   font-size: 16px;
   text-align: left;
