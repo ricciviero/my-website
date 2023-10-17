@@ -140,6 +140,59 @@
 }
 
 
+.work {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  border: 0px solid rgb(255, 255, 255);      /*DEBUGGING*/
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+
+.work-title {
+  text-align: left;
+  font-weight: 700;
+  color: #202020;
+  width: 600px;
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+}
+
+.work-p {
+  margin-top: 4px;
+  color: #6F6F6F;
+  font-size: 16px;
+  text-align: left;
+  width: 600px;
+}
+
+.work-exp-container {
+  margin-top: 15px;
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  width: 600px;
+}
+
+.exp-1, .exp-2, .exp-3, .exp-4 {
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.exp-1 img, .exp-2 img, .exp-3 img, .exp-4 img {
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  width: 50px;
+  margin-right: 10px;
+}
+
+.exp-1 p, .exp-2 p, .exp-3 p, .exp-4 p {
+  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  margin-left: 20px;
+}
+
+
 .connect {
   display: flex;
   flex-direction: column;
@@ -181,31 +234,4 @@
   cursor: pointer;
   font-weight: 600;
   color: #313131;
-}
-
-
-.work {
-  display: flex;
-  flex-direction: column;
-  border: 0px solid rgb(255, 255, 255);      /*DEBUGGING*/
-  align-items: center;
-  width: 100%;
-  padding: 50px;
-}
-
-
-.work-title {
-  text-align: left;
-  font-weight: 700;
-  color: #202020;
-  width: 600px;
-  border: 0px solid rgb(255, 0, 0);       /*DEBUGGING*/
-}
-
-.work-p {
-  margin-top: 4px;
-  color: #6F6F6F;
-  font-size: 16px;
-  text-align: left;
-  width: 600px;
 }
