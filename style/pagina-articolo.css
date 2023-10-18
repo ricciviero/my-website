@@ -1,0 +1,110 @@
+/* BODY */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #FCFCFC;
+  }
+
+
+    /* NAV */
+  
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 663px;
+  margin-right: 800px;
+  margin-top: 30px;
+}
+
+.logo-container {
+  border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
+  margin-left: -125px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.page-container {
+  border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
+  margin-left: 120px;
+  display: flex;
+  gap: 20px;
+}
+
+.about-page, .blog-page, .progetti-page, .home-page {
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6F6F6F;
+}
+
+.page-container h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+  
+  /* NAV */
+
+
+  /* HERO */
+
+  .articolo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .articolo-container {
+    text-align: left;
+    width: 600px;
+    border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  }
+  
+  .titolo {
+    text-align: left;
+    font-weight: 700;
+    color: #202020;
+    width: 600px;
+    border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  }
+  
+  .sottotitolo {
+    color: #6F6F6F;
+    font-size: 16px;
+  }
+
+  .testo-container {
+    margin-top: 30px;
+    text-align: left;
+    width: 600px;
+    border: 1px solid rgb(0, 255, 17);       /*DEBUGGING*/
+  }
+
+  .testo {
+    margin-top: 30px;
+    text-align: left;
+    width: 600px;
+    border: 1px solid rgb(255, 0, 0);       /*DEBUGGING*/
+  }
+
+
+
+
+
+
+
+
+
+  /* HERO */
