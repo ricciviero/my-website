@@ -11,7 +11,7 @@
   /* NAV */
   
 .navbar {
-  border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+  border: 0px solid rgb(255, 0, 0);      /*DEBUGGING*/
   width: 100%;      
   max-width: 600px;
   display: flex;
