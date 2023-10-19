@@ -12,17 +12,17 @@
     /* NAV */
   
 .navbar {
+  border: 0px solid rgb(255, 0, 0);      /*DEBUGGING*/
+  width: 100%;      
+  max-width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 663px;
-  margin-right: 800px;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
 }
 
 .logo-container {
-  border: 1px solid rgb(227, 14, 14);      /*DEBUGGING*/
-  margin-left: -125px;
+  border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
   display: flex;
   align-items: center;
 }
@@ -32,8 +32,8 @@
 }
 
 .page-container {
-  border: 1px solid rgb(227, 14, 14);      /*DEBUGGING*/
-  margin-left: 120px;
+  border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
+  margin-right: 120px;
   display: flex;
   gap: 20px;
 }

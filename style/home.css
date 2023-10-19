@@ -11,17 +11,18 @@
   /* NAV */
   
 .navbar {
+  border: 0px solid rgb(255, 0, 0);      /*DEBUGGING*/
+  width: 100%;      
+  max-width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 663px;
-  margin-right: 800px;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
 }
 
+
 .logo-container {
-  border: 1px solid rgb(227, 14, 14);      /*DEBUGGING*/
-  margin-left: -125px;
+  border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
   display: flex;
   align-items: center;
 }
@@ -31,8 +32,8 @@
 }
 
 .page-container {
-  border: 1px solid rgb(227, 14, 14);      /*DEBUGGING*/
-  margin-left: 120px;
+  border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
+  margin-right: 120px;
   display: flex;
   gap: 20px;
 }
@@ -257,3 +258,105 @@
 
 /* MOBILE */
 
+@media (max-width: 767px) {
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #FCFCFC;
+  }
+
+
+  /* NAV */
+
+  .navbar {
+    border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+    width: 100%;      
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    margin: 30px auto 0 auto;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  .page-container {
+    display: none;
+  }
+
+
+
+  /* NAV */
+
+
+
+  /* HERO */
+
+  .hero {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+  }
+
+
+  .presentation {
+    text-align: left;
+    color: #202020;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid rgb(255, 36, 36);       /*DEBUGGING*/
+  }
+
+  .name {
+    margin-left: -35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #202020;
+  }
+
+  .description {
+    margin-left: -35px;
+    margin-top: 4px;
+    color: #6F6F6F;
+    font-size: 14px;
+  }
+
+  .resume {
+    border: 1px solid rgb(255, 9, 9);       /*DEBUGGING*/
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+    display: flex;
+    margin-left: -80px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .profile-pic {
+    width: 75px;
+  }
+
+  .links {
+    font-size: 14px;
+    border: 1px solid rgb(247, 0, 0);       /*DEBUGGING*/
+    margin-left: 25px;
+    color: #6F6F6F;
+    padding-right: 10px;
+  }
+
+
+
+
+
+  /* HERO */
+
+}
