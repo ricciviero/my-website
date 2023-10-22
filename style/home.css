@@ -136,6 +136,10 @@
   width: 500px;
 }
 
+.mobile-break {
+  display: none;
+}
+
 .riassunto {
   border: 0px solid rgb(255, 255, 255);       /*DEBUGGING*/
   margin-top: 20px; 
@@ -303,12 +307,12 @@
   /* NAV */
 
   .navbar {
-    border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+    border: 0px solid rgb(255, 0, 0);      /*DEBUGGING*/
     width: 100%;      
     max-width: 600px;
     display: flex;
     align-items: center;
-    margin: 30px auto 0 auto;
+    margin: 12px auto 0 auto;
   }
 
   .logo {
@@ -328,10 +332,9 @@
   /* HERO */
 
   .hero {
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(255, 0, 0);      /*DEBUGGING*/
+    border: 0px solid rgb(255, 0, 0);      /*DEBUGGING*/
     align-items: center;
     width: 100%;
     padding: 50px;
@@ -339,11 +342,12 @@
 
 
   .presentation {
+    margin-top: -35px;
     text-align: left;
     color: #202020;
     width: 100%;
     max-width: 600px;
-    border: 1px solid rgb(255, 36, 36);       /*DEBUGGING*/
+    border: 0px solid rgb(255, 36, 36);       /*DEBUGGING*/
   }
 
   .name {
@@ -361,27 +365,65 @@
   }
 
   .resume {
-    border: 1px solid rgb(255, 9, 9);       /*DEBUGGING*/
-    width: 100%;
-    max-width: 600px;
-    margin-top: 30px;
-    display: flex;
-    margin-left: -80px;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+  
   }
 
   .profile-pic {
-    width: 75px;
+    margin-left: 160px; 
   }
 
   .links {
-    font-size: 14px;
-    border: 1px solid rgb(247, 0, 0);       /*DEBUGGING*/
-    margin-left: 25px;
-    color: #6F6F6F;
-    padding-right: 10px;
+    margin-left: 170px;
+    margin-top: 20px;       
+    font-size: 16px;
   }
+
+  .mobile-break {
+    display: block;
+  }
+
+  .riassunto {
+    border: 0px solid rgb(226, 19, 19);       /*DEBUGGING*/
+    margin-top: 20px; 
+    max-width: 600px;
+    width: 100%;
+    margin-left: -70px;
+    font-size: 100px;
+  }
+
+  .riassunto-p{
+    border: 0px solid rgb(10, 226, 125);       /*DEBUGGING*/
+    font-family: 'Inter', sans-serif;
+    color: #313131;
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    border: 0px solid rgb(10, 226, 125);       /*DEBUGGING*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 150px;
+    width: 100%;
+    margin-top: 25px;
+    gap: 10px;
+    margin-left: -140px;
+  }
+
+  .mail, .call {
+    text-align: left;
+    padding-right: 100px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid rgb(204, 204, 204);
+    cursor: pointer;
+    font-weight: 600;
+    color: #313131;
+}
+
+
 
 
 
