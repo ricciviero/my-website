@@ -88,6 +88,10 @@
   color: #6F6F6F;
 }
 
+.progetti-page {
+  display: none;
+}
+
 .page-container h1 a {
   text-decoration: none;
   color: inherit;
@@ -339,15 +343,14 @@
     border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
     margin-right: 10px;
     border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
-    margin-right: 120px;
-    display: none;
+    margin-right: 50px;
     gap: 10px;
   }
 
   .about-page, .blog-page, .progetti-page, .home-page {
     margin: 0;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #6F6F6F;
   }
@@ -429,7 +432,7 @@
   }
 
   .hero-buttons {
-    border: 1px solid rgb(247, 10, 10);       /*DEBUGGING*/
+    border: 0px solid rgb(247, 10, 10);       /*DEBUGGING*/
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

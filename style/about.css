@@ -64,6 +64,10 @@
     font-weight: 400;
     color: #6F6F6F;
   }
+
+  .progetti-page {
+    display: none;
+  }
   
   .page-container h1 a {
     text-decoration: none;
@@ -301,15 +305,14 @@
       border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
       margin-right: 10px;
       border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
-      margin-right: 120px;
-      display: none;
+      margin-right: 50px;
       gap: 10px;
     }
   
     .about-page, .blog-page, .progetti-page, .home-page {
       margin: 0;
       cursor: pointer;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 400;
       color: #6F6F6F;
     }
