@@ -129,3 +129,125 @@
 
 
   /* HERO */
+
+
+
+  @media (max-width: 767px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      background-color: #FCFCFC;
+      }
+  
+  
+      /* NAV */
+  
+      .navbar {
+        border: 0px solid rgb(255, 0, 0);      /*DEBUGGING*/
+        width: 100%;      
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        margin: 12px auto 0 auto;
+      }
+    
+      .logo {
+        margin-left: 10px;
+      }
+    
+      .hamburger-menu {
+        display: none;
+      }
+    
+      .page-container {
+        border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
+        margin-right: 10px;
+        border: 0px solid rgb(227, 14, 14);      /*DEBUGGING*/
+        margin-right: 120px;
+        display: none;
+        gap: 10px;
+      }
+    
+      .about-page, .blog-page, .progetti-page, .home-page {
+        margin: 0;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 400;
+        color: #6F6F6F;
+      }
+
+
+      /* NAV */
+
+      /* HERO */
+
+      .hero {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 0px solid rgb(221, 9, 9);      /*DEBUGGING*/
+        align-items: center;
+        width: 100%;
+        padding: 50px;
+      }
+      
+      .hero-container {
+        margin-top: -35px;
+        margin-left: -75px;
+        text-align: left;
+        color: #202020;
+        width: 100%;
+        max-width: 800px;
+        border: 1px solid rgb(255, 36, 36);        /*DEBUGGING*/
+      }
+      
+      .hero-title {
+        text-align: left;
+        font-weight: 700;
+        color: #202020;
+        width: 100%;
+        max-width: 800px;
+        font-size: 16px;
+        border: 1px solid rgb(8, 238, 8);       /*DEBUGGING*/
+      }
+      
+      .hero-p {
+        color: #6F6F6F;
+        margin-top: 5px;
+        font-size: 14px;
+      }
+    
+    
+      .art-container {
+        margin-left: -75px;
+        text-align: left;
+        color: #202020;
+        width: 100%;
+        max-width: 800px;
+        border: 1px solid rgb(255, 36, 36);       /*DEBUGGING*/
+      }
+    
+      .art-box {
+        padding: 10px 0;
+      }
+      
+      .art-title {
+        font-size: 14px;
+        color: #313131;
+        padding: 100px;
+        font-weight: 500;
+        padding: 4px;
+      }
+
+
+
+
+
+      /* HERO */
+
+
+
+
+  }
